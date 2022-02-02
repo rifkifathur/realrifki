@@ -16,7 +16,7 @@ const About = () => {
             <Header header="About Me"/>
             <div className="container">
                 <div className="col_left">
-                    <img src="/assets/me.jpg" alt="" />
+                    <img src="./realrifki/assets/me.jpg" alt="" />
                 </div>
                 <div className="col_right">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veritatis quo, enim fuga, dicta esse eos quibusdam odit modi officiis dolores ipsum neque labore voluptate error facilis? Dolorem, quo sit?</p>

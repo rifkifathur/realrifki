@@ -46,9 +46,9 @@ const Resume = () => {
             <div className="container">
                 <div className="col_left">
                     <div className="card">
-                        <div onClick={() => setTab(1)} id='btnWork' className={tab === 1 ? 'active' : null}><img src="/assets/work.svg" alt="" /><span>Work</span></div>
-                        <div onClick={() => setTab(2)} id='btnEdu' className={tab === 2 ? 'active' : null}><img src="/assets/edu.svg" alt="" /><span>Education</span></div>
-                        <div onClick={() => setTab(3)} id='btnSkill' className={tab === 3 ? 'active' : null}><img src="/assets/skill.svg" alt="" /><span>Skill</span></div>
+                        <div onClick={() => setTab(1)} id='btnWork' className={tab === 1 ? 'active' : null}><img src="./realrifki/assets/work.svg" alt="" /><span>Work</span></div>
+                        <div onClick={() => setTab(2)} id='btnEdu' className={tab === 2 ? 'active' : null}><img src="./realrifki/assets/edu.svg" alt="" /><span>Education</span></div>
+                        <div onClick={() => setTab(3)} id='btnSkill' className={tab === 3 ? 'active' : null}><img src="./realrifki/assets/skill.svg" alt="" /><span>Skill</span></div>
                     </div>
                 </div>
                 <div className="col_right">
