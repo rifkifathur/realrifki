@@ -1,0 +1,91 @@
+nav {
+    $white: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: $white;
+    box-shadow: 0 0 10px lightblue;
+    z-index: 999999;
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+        background-color: $white;
+        padding: 7px 0;
+        h1{
+            //background-color: yellow;
+            font-size: 40px;
+            width: 40%;
+            a{
+                text-decoration: none;
+                color: #0ABEAD;
+            }
+        }
+        ul{
+            display: flex;
+            width: 50%;
+            //background-color: green;
+            justify-content: space-around;
+            align-items: baseline;
+            margin: 0;
+            padding: 0;
+            li{
+                //background-color: red;
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        div.burger{
+            display: none;
+            div{
+                background-color: black;
+                height: 3px;
+                width: 20px;
+                margin: 5px 0;
+            }
+        }
+    }
+}
+@media screen and(max-width: 1020px) {
+    nav{
+        .container{
+            ul{
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    nav{
+        box-shadow: none;
+        .container{
+            width: 100%;
+            flex-wrap: wrap;
+            box-shadow: 0 0 10px lightblue;
+            h1{
+                width: 70%;
+            }
+            ul{
+                height: 30vh;
+                flex-direction: column;
+                align-items: center;
+                order: 1;
+                display: none;
+            }
+            div.burger{
+                display: block;
+                cursor: pointer;
+            }
+            ul.active{
+                display: flex;
+            }
+        }
+    }
+}

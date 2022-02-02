@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+.porto_{
+    margin-top: 30px;
+    padding-top: 70px;
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        span{
+            // background-color: #F57F17;
+            font-size: 30px;
+            position: relative;
+            padding-left: 20px;
+            padding-bottom: 20px;
+            color: #0ABEAD;
+        }
+        span::after{
+            content: "";
+            width: 70px;
+            height: 10px;
+            background-color: #0ABEAD;
+            position: absolute;
+            left: 30%;
+            bottom: 3px;
+            border-radius: 10px;
+        }
+        span::before{
+            content: "";
+            width: 154.5px;
+            height: 3px;
+            background-color: #0ABEAD;
+            position: absolute;
+            left: 0;
+            bottom: 6px;
+            border-radius: 10px;
+        }
+    }
+    .container{
+        // background-color: green;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+        .head-tab{
+            display: flex;
+            flex: 0.5;
+            // background-color: blue;
+            margin-bottom: 5px;
+            span{
+                margin-right: 20px;
+                padding: 8px;
+                cursor: pointer;
+            }
+            span.active-head{
+                background-color: #0ABEAD;
+                border-radius: 23px;
+                color: white;
+                transition: 0.2s;
+            }
+        }
+        .tab-content{
+            // background-color: yellow;
+            overflow: scroll;
+            display: flex;
+            padding-top: 20px;
+            img{
+                width: 50%;
+            }
+        }
+        ::-webkit-scrollbar{
+            width: 0;
+        }
+        Slider{
+            img{
+                width: 50%;
+            }
+        }
+        .slick-dots{
+            bottom: -30px;
+            li{
+                border: 2px solid grey;
+                border-radius: 50px;
+                width: 15px;
+                height: 15px;
+                button{
+                    opacity: 0;
+                }
+            }
+            li.slick-active{
+                border: 2px solid #0ABEAD;
+            }
+        }
+        .slick-prev::before, .slick-next::before{
+            color: #0ABEAD;
+            font-size: 30px;
+        }
+        .slick-next{
+            right: 10px;
+        }
+        .slick-prev{
+            left: 0px;
+            z-index: 1;
+        }
+    }
+}
+
+@media screen and (max-width: 920px){
+    .porto_{
+        .container{
+            width: 80%;
+        }
+    }
+}
