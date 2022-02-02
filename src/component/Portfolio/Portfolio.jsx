@@ -50,7 +50,7 @@ class Portfolio extends Component {
             <div className="container">
                 <Slider ref={slider => (this.slider = slider)} {...settings}>
                     <div >
-                        <img src="./realrifki/assets/portofolio.svg" alt="" width="100%"/>
+                        <img src="./assets/portofolio.svg" alt="" width="100%"/>
                     </div>
                     <div>
                         <span>Search project ....</span>

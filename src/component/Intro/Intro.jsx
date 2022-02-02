@@ -10,10 +10,10 @@ const Intro = () => {
                     </h3>
                 </div>
                 <div className="col_right">
-                    <img src="./realrifki/assets/profile_pict.jpg" alt="profile_pict" />
+                    <img src="./assets/profile_pict.jpg" alt="profile_pict" />
                 </div>
                 <footer>
-                    <img src="./realrifki/assets/3.svg" alt="footer" />
+                    <img src="./assets/3.svg" alt="footer" />
                 </footer>
         </section>
     );
