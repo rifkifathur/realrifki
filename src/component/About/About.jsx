@@ -19,7 +19,7 @@ const About = () => {
                     <img src="./assets/me.jpg" alt="" />
                 </div>
                 <div className="col_right">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veritatis quo, enim fuga, dicta esse eos quibusdam odit modi officiis dolores ipsum neque labore voluptate error facilis? Dolorem, quo sit?</p>
+                    <p>cxvxc</p>
                 </div>
             </div>
         </section>
