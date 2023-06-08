@@ -1,6 +1,7 @@
 import './Portfolio.scss';
 import React, { Component } from 'react';
 import Slider from "react-slick";
+import portfolio from './portofolio.svg';
 
 
 const Header = (props) => {
@@ -50,7 +51,7 @@ class Portfolio extends Component {
             <div className="container">
                 <Slider ref={slider => (this.slider = slider)} {...settings}>
                     <div >
-                        <img src="./assets/portofolio.svg" alt="" width="100%"/>
+                        <img src={portfolio} alt="" width="100%"/>
                     </div>
                     <div>
                         <span>Search project ....</span>
