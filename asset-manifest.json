@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/realrifki/static/css/main.f38ba870.chunk.css",
-    "main.js": "/realrifki/static/js/main.d103e5f6.chunk.js",
-    "main.js.map": "/realrifki/static/js/main.d103e5f6.chunk.js.map",
-    "runtime-main.js": "/realrifki/static/js/runtime-main.682dc9a1.js",
-    "runtime-main.js.map": "/realrifki/static/js/runtime-main.682dc9a1.js.map",
-    "static/css/2.90b837b9.chunk.css": "/realrifki/static/css/2.90b837b9.chunk.css",
-    "static/js/2.5011205c.chunk.js": "/realrifki/static/js/2.5011205c.chunk.js",
-    "static/js/2.5011205c.chunk.js.map": "/realrifki/static/js/2.5011205c.chunk.js.map",
-    "static/js/3.692d69a9.chunk.js": "/realrifki/static/js/3.692d69a9.chunk.js",
-    "static/js/3.692d69a9.chunk.js.map": "/realrifki/static/js/3.692d69a9.chunk.js.map",
+    "main.css": "/realrifki/static/css/main.8389d187.chunk.css",
+    "main.js": "/realrifki/static/js/main.2abd35fc.chunk.js",
+    "main.js.map": "/realrifki/static/js/main.2abd35fc.chunk.js.map",
+    "runtime-main.js": "/realrifki/static/js/runtime-main.b0ede382.js",
+    "runtime-main.js.map": "/realrifki/static/js/runtime-main.b0ede382.js.map",
+    "static/css/2.22f6c7d6.chunk.css": "/realrifki/static/css/2.22f6c7d6.chunk.css",
+    "static/js/2.85da0ba6.chunk.js": "/realrifki/static/js/2.85da0ba6.chunk.js",
+    "static/js/2.85da0ba6.chunk.js.map": "/realrifki/static/js/2.85da0ba6.chunk.js.map",
+    "static/js/3.0cc908d3.chunk.js": "/realrifki/static/js/3.0cc908d3.chunk.js",
+    "static/js/3.0cc908d3.chunk.js.map": "/realrifki/static/js/3.0cc908d3.chunk.js.map",
     "index.html": "/realrifki/index.html",
-    "static/css/2.90b837b9.chunk.css.map": "/realrifki/static/css/2.90b837b9.chunk.css.map",
-    "static/css/main.f38ba870.chunk.css.map": "/realrifki/static/css/main.f38ba870.chunk.css.map",
-    "static/js/2.5011205c.chunk.js.LICENSE.txt": "/realrifki/static/js/2.5011205c.chunk.js.LICENSE.txt",
+    "static/css/2.22f6c7d6.chunk.css.map": "/realrifki/static/css/2.22f6c7d6.chunk.css.map",
+    "static/css/main.8389d187.chunk.css.map": "/realrifki/static/css/main.8389d187.chunk.css.map",
+    "static/js/2.85da0ba6.chunk.js.LICENSE.txt": "/realrifki/static/js/2.85da0ba6.chunk.js.LICENSE.txt",
     "static/media/Resume.scss": "/realrifki/static/media/bg-resume.02619750.svg",
     "static/media/Contact.scss": "/realrifki/static/media/cover_contact.2cf9498f.svg",
+    "static/media/foto_profile_.327b6b7c.jpg": "/realrifki/static/media/foto_profile_.327b6b7c.jpg",
     "static/media/slick-theme.css": "/realrifki/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.682dc9a1.js",
-    "static/css/2.90b837b9.chunk.css",
-    "static/js/2.5011205c.chunk.js",
-    "static/css/main.f38ba870.chunk.css",
-    "static/js/main.d103e5f6.chunk.js"
+    "static/js/runtime-main.b0ede382.js",
+    "static/css/2.22f6c7d6.chunk.css",
+    "static/js/2.85da0ba6.chunk.js",
+    "static/css/main.8389d187.chunk.css",
+    "static/js/main.2abd35fc.chunk.js"
   ]
 }
