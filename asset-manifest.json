@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/realrifki/static/css/main.8389d187.chunk.css",
-    "main.js": "/realrifki/static/js/main.2abd35fc.chunk.js",
-    "main.js.map": "/realrifki/static/js/main.2abd35fc.chunk.js.map",
+    "main.js": "/realrifki/static/js/main.7bc5d014.chunk.js",
+    "main.js.map": "/realrifki/static/js/main.7bc5d014.chunk.js.map",
     "runtime-main.js": "/realrifki/static/js/runtime-main.b0ede382.js",
     "runtime-main.js.map": "/realrifki/static/js/runtime-main.b0ede382.js.map",
     "static/css/2.22f6c7d6.chunk.css": "/realrifki/static/css/2.22f6c7d6.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.22f6c7d6.chunk.css",
     "static/js/2.85da0ba6.chunk.js",
     "static/css/main.8389d187.chunk.css",
-    "static/js/main.2abd35fc.chunk.js"
+    "static/js/main.7bc5d014.chunk.js"
   ]
 }
