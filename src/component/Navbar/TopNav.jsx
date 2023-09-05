@@ -16,7 +16,7 @@ const TopNav = () => {
                     <li><a href="./#home" onClick={active_nav}>Home</a></li>
                     <li><a href="./#about" onClick={active_nav}>About</a></li>
                     <li><a href="./#resume" onClick={active_nav}>Resume</a></li>
-                    <li><a href="./#port" onClick={active_nav}>Portfolio</a></li>
+                    <li><a href="./#port" onClick={active_nav}>Projects</a></li>
                     <li><a href="./#contact" onClick={active_nav}>Contact</a></li>
                 </ul>
                 <div className="burger" onClick={active_nav}>

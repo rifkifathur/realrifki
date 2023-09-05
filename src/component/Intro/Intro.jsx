@@ -11,7 +11,7 @@ const Intro = () => {
             <div className="col_left">
                 <h3>
                     <span>Hello, IM <span>Rifki Fathur</span></span>
-                    <span>Web Developer</span>
+                    <p>Web Developer</p>
                 </h3>
             </div>
             <footer>
